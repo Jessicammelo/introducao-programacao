@@ -1,0 +1,24 @@
+<furbot>
+	<enunciado>
+	Faça o robô encontrar o alien. &lt;br&gt;
+	Quando encontrá-lo deve falar "Peguei o ET na posição (x,y)". &lt;br&gt;
+	Onde está (x,y) devem ser a posição de onde encontrou o Alien.
+	</enunciado>
+	
+	<mundo>
+		<random limiteInfY="3" limiteSupY="10" limiteInfX="3" limiteSupX="10"/>
+		<explodir>true</explodir>
+	</mundo>
+	
+	<robo>
+		<x>0</x>
+		<y>0</y>
+	</robo>
+	
+	<!-- alvo -->
+	<objeto class="br.furb.furbot.Alien">
+		<random/>
+		<bloqueado>false</bloqueado>
+	</objeto>
+	
+</furbot>

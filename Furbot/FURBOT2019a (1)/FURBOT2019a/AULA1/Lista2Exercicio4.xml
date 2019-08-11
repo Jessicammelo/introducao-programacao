@@ -1,0 +1,50 @@
+<furbot>
+<enunciado>Lista de Exercicios 2 - Exercicio 4.
+  <br> Faça o robo andar ao redor do mundo e contar os aliens</br>
+  <br> que ele encontrou no caminho. O robo deve voltar a celula </br>
+  <br> de nascença para então falar a quantidade de aliens encontrados:</br>
+  <br> no total, na coluna 0, na linha 0, na última coluna e na ultima linha.</br>
+</enunciado>
+<mundo>
+<random limiteInfY="3" limiteSupY="8" limiteInfX="3" limiteSupX="8" />
+<explodir>true</explodir>
+</mundo>
+<robo>
+<random />
+</robo>
+ <!--  aliens -->
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<bloqueado>false</bloqueado>
+<objeto class="br.furb.furbot.Alien">
+  <random />
+  <bloqueado>false</bloqueado>
+  </objeto>
+<objeto class="br.furb.furbot.Alien">
+  <random />
+  <bloqueado>false</bloqueado>
+</objeto>
+</furbot>
+

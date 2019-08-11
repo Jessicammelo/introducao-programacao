@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_211]"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/mauromattos/Documents/_DV/Dropbox/__MacBookAir/___WORKSPACES/FURBOT/___furbot_jars/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="/Users/mauromattos/Documents/_DV/Dropbox/__MacBookAir/___WORKSPACES/FURBOT/___furbot_jars/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="/Users/mauromattos/Documents/_DV/Dropbox/__MacBookAir/___WORKSPACES/FURBOT/___furbot_jars/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/mauromattos/Documents/_DV/Dropbox/__MacBookAir/___WORKSPACES/FURBOT/___furbot_jars/furbot-1.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

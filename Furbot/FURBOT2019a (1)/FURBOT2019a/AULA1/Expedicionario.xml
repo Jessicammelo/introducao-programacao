@@ -1,0 +1,65 @@
+<furbot>
+	<enunciado>
+	Leve o robô até a última linha e coluna desviando de todas as paredes.&lt;br&gt;
+	O robô deve inclusive detectar quando não dá para chegar no alvo. &lt;br&gt;
+	O nível de dificuldade desse exercício é altíssimo. &lt;br&gt;
+	Serve como um exercício para você realmente ficar afiado em algoritmos.
+	</enunciado>
+	
+	<mundo>
+		<random limiteInfY="6" limiteSupY="9" limiteInfX="6" limiteSupX="9"/>
+		<explodir>true</explodir>
+	</mundo>
+	
+	<robo>
+		<random limiteInfX="2" limiteSupX="7" limiteInfY = "2"/>
+	</robo>
+	
+	<objeto class="br.furb.furbot.Alien">
+		<x>-1</x>
+		<y>-1</y>
+	</objeto>
+	
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+	<objeto class="br.furb.furbot.Parede">
+		<random/>
+	</objeto>
+
+
+	
+</furbot>

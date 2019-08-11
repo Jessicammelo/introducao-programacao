@@ -1,0 +1,36 @@
+<furbot>
+<enunciado>Lista de Exercicios 2 - Exercicio 5.
+  <br> Faça o robo andar até a celula (0,0). </br>
+  <br> Em seguida faça ele andar pelo mundo todo</br>
+  <br> e contando os aliens. Quando ele alcançar</br>
+  <br> a última celula deve falar a quantidade de aliens encontrados.</br>
+</enunciado> 
+ <mundo>
+<random limiteInfY="3" limiteSupY="8" limiteInfX="3" limiteSupX="8" />
+<explodir>true</explodir>
+</mundo>
+<robo>
+<random />
+</robo>
+<!--  aliens -->
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+</furbot>

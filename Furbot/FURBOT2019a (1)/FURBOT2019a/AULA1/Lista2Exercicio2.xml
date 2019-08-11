@@ -1,0 +1,39 @@
+<furbot>
+<enunciado>Lista de Exercícios 2 - Exercício 2.
+  <br> Faça o robô andar ao redor do mundo e contar os aliens</br>
+  <br> que ele encontrou no caminho. No final ele deve falar a</br>
+  <br> quantidade de aliens encontrados.</br>
+</enunciado> 
+<mundo>
+<random limiteInfY="3" limiteSupY="8" limiteInfX="3" limiteSupX="8" />
+<explodir>true</explodir>
+</mundo>
+<robo>
+<x>0</x>
+<y>0</y>
+</robo>
+- <!--  aliens -->
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+- <objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto> </furbot>

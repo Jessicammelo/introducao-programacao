@@ -1,0 +1,42 @@
+< furbot>
+<enunciado>Lista de Exercícios 2 - Exercício 1.
+  <br>Faça o robô andar até a ultima coluna contando os aliens.</br>
+  <br> No final deve falar a quantidade de aliens encontrados.</br>
+  <br>Atenção: não esqueça do tratamento do singular e plural.</br>
+  <br> Se for mais que 1 alien, ele deve dizer "aliens".</br>
+</enunciado> 
+<mundo>
+<qtdadeLin>4</qtdadeLin>
+<qtdadeCol>8</qtdadeCol>
+<explodir>true</explodir>
+</mundo>
+<robo>
+<x>0</x>
+<randomY />
+</robo>
+<!--  aliens -->
+<objeto class="br.furb.furbot.Alien">
+<random limiteInfX="1" />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random limiteInfX="1" />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random limiteInfX="1" />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random limiteInfX="1" />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random limiteInfX="1" />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random limiteInfX="1" />
+<bloqueado>false</bloqueado>
+</objeto>
+</furbot>

@@ -1,0 +1,30 @@
+<furbot>
+<enunciado>
+     O robô nasce na posicao inicial (0,0) e anda em zigue-zague.
+     &lt;br&gt; 
+     conte o numero de NUMEROS PARES e o numero de NUMEROS IMPARES
+     &lt;br&gt;   
+</enunciado>
+	
+	<mundo>
+            <tamanhoCel>"P"</tamanhoCel>
+	    <qtdadeCol>5</qtdadeCol>
+	    <qtdadeLin>5</qtdadeLin>
+	    <explodir>true</explodir>
+	</mundo>
+        <numero qtdade = "10">
+            <valor randomInf="2"></valor>
+            <random></random>
+        </numero>
+        <numero class="br.furb.furbot.Tesouro" qtdade="5">
+            <valor randomInf="1"></valor>
+            <random></random>
+        </numero>
+	<robo>
+		<x>0</x>
+		<y>0</y>
+	</robo>
+	
+	
+	
+</furbot>

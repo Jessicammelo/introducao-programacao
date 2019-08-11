@@ -1,0 +1,37 @@
+<furbot>
+<enunciado>Prova N-1.
+  <br> Leia o enunciado e programe o Furbot para atender as especificacoes</br>
+</enunciado>
+<mundo>
+<random limiteInfY="3" limiteSupY="8" limiteInfX="3" limiteSupX="8" />
+<explodir>true</explodir>
+</mundo>
+<robo>
+<random />
+</robo>
+<!--  aliens -->
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<random />
+<bloqueado>false</bloqueado>
+</objeto>
+</furbot>

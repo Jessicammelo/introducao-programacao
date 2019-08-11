@@ -1,0 +1,26 @@
+<furbot>
+<enunciado>
+	O robô nasce na posicao inicial (0,0) e 
+	anda aleatoriamente até que&lt;br&gt; a direcao sorteada seja DIREITA e 
+    o fim do mundo é a DIREITA.&lt;br&gt; 
+    ALTERE O PROGRAMA CONFORME O ENUNCIADO DO AVA&lt;br&gt;   
+</enunciado>
+	
+	<mundo>
+            <tamanhoCel>"P"</tamanhoCel>
+	    <qtdadeCol>7</qtdadeCol>
+	    <qtdadeLin>7</qtdadeLin>
+	    <explodir>true</explodir>
+	</mundo>
+        <numero qtdade = "1">
+            <valor randomInf="2"></valor>
+            <random></random>
+        </numero>
+	<robo>
+		<x>0</x>
+		<y>0</y>
+	</robo>
+	
+	
+	
+</furbot>

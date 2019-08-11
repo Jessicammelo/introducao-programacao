@@ -1,0 +1,24 @@
+<furbot>
+	<enunciado>
+	O robô é posicionado aleatoriamente na coluna 0. Faça o robô chegar até a coluna 4. &lt;br&gt; 
+	Mas atenção: na coluna 3 existem obstáculos. Quando isso acontecer o robô precisa &lt;br&gt; 
+	dar o contorno por baixo, para chegar até a coluna 4 da linha de onde o robô nasceu. 
+	</enunciado>
+	
+	<mundo>
+		<qtdadeLin>5</qtdadeLin>
+		<qtdadeCol>5</qtdadeCol>
+		<explodir>true</explodir>
+	</mundo>
+
+	<robo>
+		<x>0</x>
+		<randomY/>
+	</robo>
+	
+	<objeto class="br.furb.furbot.Alien">
+		<x>3</x>
+		<randomY limiteSup="3"/>
+	</objeto>
+	
+</furbot>

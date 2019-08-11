@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="src/" kind="src" path="FURBOT2019a/AULA1"/>
+	<classpathentry kind="src" path="FURBOT2019a/AULA1/src"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/._commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/._commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/._commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/._furbot-1.7.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/AULA1/lib/._commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/AULA1/lib/._commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/AULA1/lib/._commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/AULA1/lib/._furbot-1.7.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/AULA1/lib/CopyLibs/._org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/AULA1/lib/junit_4/._junit-4.5-src.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/AULA1/lib/junit_4/._junit-4.5.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/FURBOT2019a/AULA1/lib/junit/._junit-3.8.2.jar"/>
+	<classpathentry kind="lib" path="FURBOT2019a/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="FURBOT2019a/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="FURBOT2019a/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="FURBOT2019a/furbot-1.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

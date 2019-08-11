@@ -1,0 +1,26 @@
+<furbot>
+<enunciado>Exercicio 5. &lt;br&gt;
+ Faca o robo chegar ate a coluna 4 na mesma linha em que ele nasceu. &lt;br&gt;   Se ele encontrar um obstaculo deve desviar por baixo. &lt;br&gt;   E garantido que nao exista um obstaculo na ultima linha. &lt;br&gt;
+ A primeira coluna e linhas sao a de numero ZERO.</enunciado>
+<mundo>
+<qtdadeLin>5</qtdadeLin>
+<qtdadeCol>5</qtdadeCol>
+<explodir>true</explodir>
+</mundo>
+<robo>
+<x>randomX</x>
+<y>0</y>
+</robo>
+<objeto class="br.furb.furbot.Alien">
+<x>3</x>
+<y>0</y>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<x>3</x>
+<y>2</y>
+</objeto>
+<objeto class="br.furb.furbot.Alien">
+<x>3</x>
+<y>3</y>
+</objeto>
+</furbot>
